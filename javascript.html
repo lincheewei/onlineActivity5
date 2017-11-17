@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // variable i declared with 10 elements
+      var i = [1,2,3,4,5,6,7,8,9,10];
+      // variable fruits declared with 10 elements 
+      var fruits = ["Apple","Banana","Cherry","Grape","Kiwi",
+                    "Lemon","Mango","Orange","Pear","Strawberry"];
+      // variable i is called once, variable fruit is put into forEach to loop
+      i.forEach(function(fruit){
+        // if fruit (element starts first one till the end) modules by 2 equals to 1
+        if(fruit % 2 === 1){
+          // then display the result
+          document.write(fruit);
+        }
+      });
+    </script>
+  </body>
+</html>
